@@ -5,7 +5,8 @@ fin de semana 12-dic se añade control de un relevador para activar un foco de 4
 
 
 
-Añadir estas lineas en crontab 
+Añadir estas lineas en crontab
+usando crontab -e 
 
 
 0 5 * * * sudo python /home/pi/releLuz.py&
